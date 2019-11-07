@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 200px;
+}
+
+#root {
+  width: 250px; /*can be in percentage also.*/
+  height: auto;
+  margin: 0 auto;
+  padding: 8px;
+  position: relative;
+  border: solid green 1px;
+}
+
+.radioGroup {
+  padding-bottom: 18px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: calc(50% - 5px);
+}
+.container input {
+  margin-bottom: 8px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.fullWidth input {
+  margin-top: 8px;
+}
